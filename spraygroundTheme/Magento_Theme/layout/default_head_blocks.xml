@@ -9,7 +9,11 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
         <!-- Add external resources -->
+        <css href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" src_type="url" />          
 		<css src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" src_type="url" />
+		<script data-cfasync="false" src="//use.typekit.com/fvc3xbz.js" src_type="url"/>
+
+
     </head>
 </page>
 

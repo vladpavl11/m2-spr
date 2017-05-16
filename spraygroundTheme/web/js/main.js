@@ -38,8 +38,14 @@ var timeline = TweenMax.to({}, 0.4, {
   }
 });
 timeline.pause();
-
-$(".nav-toggle").on("click", function() {
+ 
+$(".hamburger").on("click", function() {
+  var hamburger = document.querySelectorAll(".hamburger");
+    if (hamburger.length > 0) {
+          this.classList.toggle("is-active");
+       
+      
+    }
 	if ($("html").hasClass("nav-open")) {
 	  timeline.reverse();
 	  nav_bar.reverse();

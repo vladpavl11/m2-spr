@@ -49,7 +49,13 @@ $groupBehavior = $block->getGroupBehaviour() ? $block->getGroupBehaviour() : '{"
        <!--  Navigaton and logo section -->
         <?php $storeName = $block->getThemeName() ? $block->getThemeName() : $block->getLogoAlt();?>
         <div class="nav_wrapper">
-            <span data-action="toggle-nav" class="action nav-toggle"><span><?php /* @escapeNotVerified */ echo __('Toggle Nav') ?></span></span>
+<!--             <span data-action="toggle-nav" class="action nav-toggle"><span><?php /* @escapeNotVerified */ echo __('Toggle Nav') ?></span></span>
+ -->
+             <div class="hamburger hamburger--spin js-hamburger" data-action="toggle-nav">
+              <div class="hamburger-box">
+                <div class="hamburger-inner"></div>
+              </div>
+            </div>
 
                 <strong class="logo">
                           <a class="cd-logo" href="/">
